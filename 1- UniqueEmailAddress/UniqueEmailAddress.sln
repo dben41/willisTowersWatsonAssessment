@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueEmailAddress", "UniqueEmailAddress\UniqueEmailAddress.csproj", "{461F6C92-CFFC-4C6D-9ECE-C2AA628C7BF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5952BF5E-DF70-4BAD-80AF-5C4ECA991792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueEmailAddressesTest", "UniqueEmailAddressesTest\UniqueEmailAddressesTest.csproj", "{792C9492-AE88-40F3-9D92-0D8CC03122A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{461F6C92-CFFC-4C6D-9ECE-C2AA628C7BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461F6C92-CFFC-4C6D-9ECE-C2AA628C7BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461F6C92-CFFC-4C6D-9ECE-C2AA628C7BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461F6C92-CFFC-4C6D-9ECE-C2AA628C7BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{792C9492-AE88-40F3-9D92-0D8CC03122A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{792C9492-AE88-40F3-9D92-0D8CC03122A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{792C9492-AE88-40F3-9D92-0D8CC03122A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{792C9492-AE88-40F3-9D92-0D8CC03122A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{792C9492-AE88-40F3-9D92-0D8CC03122A7} = {5952BF5E-DF70-4BAD-80AF-5C4ECA991792}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65EBCDE6-8CF4-43EB-B8B5-A723C4558772}
+	EndGlobalSection
+EndGlobal
